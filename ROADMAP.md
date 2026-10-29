@@ -7,9 +7,9 @@
 ## v0 — Núcleo y evaluación (3 semanas)
 
 ### Semana 1 (27 oct – 2 nov): el núcleo, sin red
-1. Cerrar el diseño: contrastar la matriz con la *Table 1* de BOD 26-04, crear `Fundamentos/Python/kev-exposure-prioritizer/` y subir `DESIGN.md`.
-2. Datos de ejemplo: los 5 activos de la sección 6 en `assets.json`, `findings.json` y `cve_info.json`, más `weights.toml`.
-3. `matrix.py`: el diccionario de las 16 combinaciones y un test parametrizado por fila.
+1. Cerrar el diseño: contrastar la matriz con la *Table 1* de BOD 26-04, crear `Fundamentos/Python/kev-exposure-prioritizer/` y subir `DESIGN.md`. ✅
+2. Datos de ejemplo: los 5 activos de la sección 6 en `assets.json`, `findings.json` y `cve_info.json`, más `weights.toml`. ✅
+3. `matrix.py`: el diccionario de las 16 combinaciones y un test parametrizado por fila. ✅
 4. `score.py`, con los tests escritos antes que el código:
    - los 5 valores calculados a mano: 98.6, 86.3, 60.8, 59.0 y 32.7;
    - el ejemplo de renormalización, que da 100;
