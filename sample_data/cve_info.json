@@ -1,0 +1,14 @@
+{
+  "CVE-2024-21762": {"cvss": 9.8, "cvss_version": "3.1", "epss": 0.94,
+                     "automatable": true, "technical_impact": "total"},
+  "CVE-2023-21529": {"cvss": 8.8, "cvss_version": "3.1", "epss": 0.50,
+                     "automatable": false, "technical_impact": "total"},
+  "CVE-2026-35273": {"cvss": 9.8, "cvss_version": "3.1", "epss": 0.30,
+                     "automatable": true, "technical_impact": "total"},
+  "CVE-2024-30088": {"cvss": 7.0, "cvss_version": "3.1", "epss": 0.10,
+                     "automatable": false, "technical_impact": "total"},
+  "CVE-2099-0001":  {"cvss": 9.8, "cvss_version": "3.1", "epss": 0.02,
+                     "automatable": false, "technical_impact": "partial"},
+  "CVE-2021-42321": {"cvss": null, "cvss_version": null, "epss": null,
+                     "automatable": null, "technical_impact": null}
+}

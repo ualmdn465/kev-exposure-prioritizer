@@ -1,0 +1,40 @@
+# Pesos del score en porcentaje. Cada configuración suma 100.
+# Justificación en DESIGN.md, sección 5.
+
+default = "base"
+
+# Principal: la que se compara con las baselines
+[base]
+kev = 30
+rw = 10
+epss = 20
+exp = 20
+crit = 10
+cvss = 10
+
+# Sensibilidad: predicción y exposición por encima de KEV
+[predictivo]
+kev = 18
+rw = 9
+epss = 27
+exp = 27
+crit = 9
+cvss = 10
+
+# Sensibilidad: impacto en la organización
+[negocio]
+kev = 25
+rw = 10
+epss = 20
+exp = 20
+crit = 20
+cvss = 5
+
+# Sensibilidad: explotación confirmada y criticidad
+[amenaza-conocida]
+kev = 35
+rw = 15
+epss = 10
+exp = 10
+crit = 25
+cvss = 5

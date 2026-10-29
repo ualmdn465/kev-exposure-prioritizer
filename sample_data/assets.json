@@ -1,0 +1,14 @@
+[
+  {"host": "host-a", "vendor": "Fortinet", "product": "FortiOS", "version": "7.2.0",
+   "criticality": 5, "internet_facing": true, "exposed_ports": [443]},
+  {"host": "host-b", "vendor": "Microsoft", "product": "Exchange Server", "version": "2019",
+   "criticality": 4, "internet_facing": true, "exposed_ports": [443]},
+  {"host": "host-c", "vendor": "Oracle", "product": "PeopleSoft Enterprise PeopleTools", "version": "5.4.7",
+   "criticality": 3, "internet_facing": false, "exposed_ports": [443]},
+  {"host": "host-d", "vendor": "Microsoft", "product": "Windows Server", "version": "8.2.0",
+   "criticality": 5, "internet_facing": false, "exposed_ports": [445, 3389]},
+  {"host": "host-e", "vendor": "Acme Labs", "product": "Widget Server", "version": "1.0.0",
+   "criticality": 2, "internet_facing": true, "exposed_ports": [443]},
+  {"host": "host-f", "vendor": "Microsoft", "product": "Exchange Server", "version": "2016",
+   "criticality": 5, "internet_facing": true, "exposed_ports": [443]}
+]

@@ -1,0 +1,8 @@
+[
+  {"host": "host-a", "cve": "CVE-2024-21762"},
+  {"host": "host-b", "cve": "CVE-2023-21529"},
+  {"host": "host-c", "cve": "CVE-2026-35273"},
+  {"host": "host-d", "cve": "CVE-2024-30088"},
+  {"host": "host-e", "cve": "CVE-2099-0001"},
+  {"host": "host-f", "cve": "CVE-2021-42321"}
+]
